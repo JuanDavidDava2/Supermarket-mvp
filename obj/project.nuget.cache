@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "04flKuMunLbPEaZgsDhYs54Hso0FLc6PwtBjokQl38ArjERu5RMhLaTSMB6ZEJafVaYKnctuC7cttCcRZ6df3w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\Supermarket-mvp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\practicanteit\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\practicanteit\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\practicanteit\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\practicanteit\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}
