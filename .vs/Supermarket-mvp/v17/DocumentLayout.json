@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BE49D1B-7178-460F-94EC-CC37EC3AB012}|Supermarket-mvp.csproj|c:\\users\\practicanteit\\source\\repos\\supermarket-mvp\\.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6BE49D1B-7178-460F-94EC-CC37EC3AB012}|Supermarket-mvp.csproj|solutionrelative:.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BE49D1B-7178-460F-94EC-CC37EC3AB012}|Supermarket-mvp.csproj|c:\\users\\practicanteit\\source\\repos\\supermarket-mvp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BE49D1B-7178-460F-94EC-CC37EC3AB012}|Supermarket-mvp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6BE49D1B-7178-460F-94EC-CC37EC3AB012}|Supermarket-mvp.csproj|C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\views\\paymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BE49D1B-7178-460F-94EC-CC37EC3AB012}|Supermarket-mvp.csproj|solutionrelative:views\\paymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BE49D1B-7178-460F-94EC-CC37EC3AB012}|Supermarket-mvp.csproj|c:\\users\\practicanteit\\source\\repos\\supermarket-mvp\\views\\ipaymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BE49D1B-7178-460F-94EC-CC37EC3AB012}|Supermarket-mvp.csproj|solutionrelative:views\\ipaymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BE49D1B-7178-460F-94EC-CC37EC3AB012}|Supermarket-mvp.csproj|c:\\users\\practicanteit\\source\\repos\\supermarket-mvp\\views\\paymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -25,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6BE49D1B-7178-460F-94EC-CC37EC3AB012}|Supermarket-mvp.csproj|C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\models\\ipaymoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BE49D1B-7178-460F-94EC-CC37EC3AB012}|Supermarket-mvp.csproj|solutionrelative:models\\ipaymoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BE49D1B-7178-460F-94EC-CC37EC3AB012}|Supermarket-mvp.csproj|C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\views\\ipaymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BE49D1B-7178-460F-94EC-CC37EC3AB012}|Supermarket-mvp.csproj|solutionrelative:views\\ipaymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 173,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,33 +114,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": ".gitignore.txt",
-              "DocumentMoniker": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\.gitignore.txt",
-              "RelativeDocumentMoniker": ".gitignore.txt",
-              "ToolTip": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\.gitignore.txt",
-              "RelativeToolTip": ".gitignore.txt",
-              "ViewState": "AQIAAAcCAAAAAAAAAAAAABMCAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-04-11T20:08:13.725Z",
+              "DocumentIndex": 1,
+              "Title": "IPayModeView.cs",
+              "DocumentMoniker": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\Views\\IPayModeView.cs",
+              "RelativeDocumentMoniker": "Views\\IPayModeView.cs",
+              "ToolTip": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\Views\\IPayModeView.cs",
+              "RelativeToolTip": "Views\\IPayModeView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T16:44:31.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "DocumentIndex": 0,
+              "Title": "PayModeView.cs",
+              "DocumentMoniker": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\Views\\PayModeView.cs",
+              "RelativeDocumentMoniker": "Views\\PayModeView.cs",
+              "ToolTip": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\Views\\PayModeView.cs",
+              "RelativeToolTip": "Views\\PayModeView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T19:55:19.896Z",
+              "WhenOpened": "2024-04-13T01:15:51.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "PayModeModel.cs",
+              "DocumentMoniker": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\Models\\PayModeModel.cs",
+              "RelativeDocumentMoniker": "Models\\PayModeModel.cs",
+              "ToolTip": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\Models\\PayModeModel.cs",
+              "RelativeToolTip": "Models\\PayModeModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T19:10:50.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PayModeView.cs [Design]",
               "DocumentMoniker": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\Views\\PayModeView.cs",
               "RelativeDocumentMoniker": "Views\\PayModeView.cs",
@@ -160,32 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PayModeView.cs",
-              "DocumentMoniker": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\Views\\PayModeView.cs",
-              "RelativeDocumentMoniker": "Views\\PayModeView.cs",
-              "ToolTip": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\Views\\PayModeView.cs",
-              "RelativeToolTip": "Views\\PayModeView.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T19:48:24.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IPayModeView.cs",
-              "DocumentMoniker": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\Views\\IPayModeView.cs",
-              "RelativeDocumentMoniker": "Views\\IPayModeView.cs",
-              "ToolTip": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\Views\\IPayModeView.cs",
-              "RelativeToolTip": "Views\\IPayModeView.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAYAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T19:28:05.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "IPayModeRepository.cs",
               "DocumentMoniker": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\Models\\IPayModeRepository.cs",
               "RelativeDocumentMoniker": "Models\\IPayModeRepository.cs",
@@ -194,18 +173,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T19:22:15.919Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PayModeModel.cs",
-              "DocumentMoniker": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\Models\\PayModeModel.cs",
-              "RelativeDocumentMoniker": "Models\\PayModeModel.cs",
-              "ToolTip": "C:\\Users\\practicanteit\\source\\repos\\Supermarket-mvp\\Models\\PayModeModel.cs",
-              "RelativeToolTip": "Models\\PayModeModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T19:10:50.509Z"
             }
           ]
         },
