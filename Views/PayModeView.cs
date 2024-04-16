@@ -2,13 +2,29 @@
 {
 	public partial class PayModeView : Form, IPayModeView
 	{
-		private string message;
-		private bool isSuccessful;
 		private bool isEdit;
+		private bool isSuccessful;
+		private string message;
 
 		public PayModeView()
 		{
 			InitializeComponent();
+			AssociateAndRaiseViewEvents();
+
+			tabControl1.TabPages.Remove(tabPagePayModeDetail);
+		}
+
+		private void AssociateAndRaiseViewEvents()
+		{
+			BtnSearch.Click += delegate { SearchEvent?.Invoke(this, EventArgs.Empty); };
+
+			TxtSearch.KeyDown += (s, e) =>
+			{
+				if (e.KeyCode == Keys.Enter)
+				{
+					SearchEvent?.Invoke(this, EventArgs.Empty);
+				}
+			};
 		}
 
 		public string PayModeId
@@ -21,7 +37,7 @@
 		{
 
 			get { return TxtPayModeName.Text; }
-			set { TxtPayModeName.text = value; }
+			set { TxtPayModeName.Text = value; }
 		}
 		public string PayModeObservation 
 		{
@@ -31,7 +47,7 @@
 		public string SearchValue 
 		{
 			get { return TxtSearch.Text;  }
-			set { TxtSearch = value; } 
+			set { TxtSearch.Text = value; } 
 		}
 		public bool IsEdit 
 		{

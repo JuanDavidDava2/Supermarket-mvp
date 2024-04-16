@@ -8,6 +8,8 @@ namespace Supermarket_mvp.Models
 	{
 		void Add(PayModeModel payModeModel);
 		void Edit(PayModeModel payModeModel);
+
+		void Delete(int id);
 		IEnumerable<PayModeModel> GetAll();
 		IEnumerable<PayModeModel> GetByValue(string value);
 
