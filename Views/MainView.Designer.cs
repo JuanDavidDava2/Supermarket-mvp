@@ -32,27 +32,29 @@
 			panel1 = new Panel();
 			BtnPayMode = new Button();
 			pictureBox1 = new PictureBox();
+			BtnExit = new Button();
 			panel1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
 			SuspendLayout();
 			// 
 			// panel1
 			// 
+			panel1.Controls.Add(BtnExit);
 			panel1.Controls.Add(BtnPayMode);
 			panel1.Controls.Add(pictureBox1);
 			panel1.Dock = DockStyle.Left;
 			panel1.Location = new Point(0, 0);
 			panel1.Name = "panel1";
-			panel1.Size = new Size(461, 696);
+			panel1.Size = new Size(377, 696);
 			panel1.TabIndex = 0;
 			// 
 			// BtnPayMode
 			// 
 			BtnPayMode.BackgroundImage = (Image)resources.GetObject("BtnPayMode.BackgroundImage");
 			BtnPayMode.BackgroundImageLayout = ImageLayout.Zoom;
-			BtnPayMode.Location = new Point(3, 118);
+			BtnPayMode.Location = new Point(3, 113);
 			BtnPayMode.Name = "BtnPayMode";
-			BtnPayMode.Size = new Size(455, 207);
+			BtnPayMode.Size = new Size(371, 207);
 			BtnPayMode.TabIndex = 1;
 			BtnPayMode.UseVisualStyleBackColor = true;
 			// 
@@ -62,10 +64,21 @@
 			pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
 			pictureBox1.Location = new Point(0, 0);
 			pictureBox1.Name = "pictureBox1";
-			pictureBox1.Size = new Size(461, 100);
+			pictureBox1.Size = new Size(377, 119);
 			pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
 			pictureBox1.TabIndex = 0;
 			pictureBox1.TabStop = false;
+			// 
+			// BtnExit
+			// 
+			BtnExit.BackgroundImage = (Image)resources.GetObject("BtnExit.BackgroundImage");
+			BtnExit.BackgroundImageLayout = ImageLayout.Zoom;
+			BtnExit.Dock = DockStyle.Bottom;
+			BtnExit.Location = new Point(0, 533);
+			BtnExit.Name = "BtnExit";
+			BtnExit.Size = new Size(377, 163);
+			BtnExit.TabIndex = 2;
+			BtnExit.UseVisualStyleBackColor = true;
 			// 
 			// MainView
 			// 
@@ -73,6 +86,7 @@
 			AutoScaleMode = AutoScaleMode.Font;
 			ClientSize = new Size(1004, 696);
 			Controls.Add(panel1);
+			IsMdiContainer = true;
 			Name = "MainView";
 			Text = "Supermarket";
 			WindowState = FormWindowState.Maximized;
@@ -86,5 +100,6 @@
 		private Panel panel1;
 		private Button BtnPayMode;
 		private PictureBox pictureBox1;
+		private Button BtnExit;
 	}
 }
